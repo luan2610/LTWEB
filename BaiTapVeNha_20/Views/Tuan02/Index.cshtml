@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+<header>
+    <h2>Giới Thiệu Bản Thân</h2>
+</header>
+
+<section>
+    <article>
+        <table>
+            <tr>
+                <td class="left-column">
+                    <p><b>@ViewBag.Hoten</b></p>
+                    <p><b>@ViewBag.MSSV</b></p>
+                </td>
+                <td class="right-column">
+                    <div style="text-align: center;">
+                        <img src="~/image/img_6048.jpg" alt="Hình ảnh" style="width:400px;" />
+                        <p><b>Hình ảnh</b></p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </article>
+</section>
+
+<footer>Copyright @ViewBag.HoTen - @ViewData["Nam"]</footer>

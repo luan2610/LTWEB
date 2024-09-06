@@ -1,0 +1,40 @@
+﻿body {
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #FFCCCC;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 3px solid #ccc;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+.left-column {
+    text-align: center;
+}
+
+.right-column {
+    text-align: left;
+}
+
+/* Style the footer */
+footer {
+    background-color: #33CCFF;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

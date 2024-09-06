@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Máy tính";
+}
+
+<h2>Kết quả tính toán</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color: red;">@ViewBag.Error</p>
+}
+else
+{
+    <p>Kết quả: @ViewBag.KetQua</p>
+}
+<form asp-controller="Home" asp-action="MayTinh" method="post">
+    <input type="number" name="a" placeholder="Nhập số a" />
+    <input type="number" name="b" placeholder="Nhập số b" />
+    <select name="pheptinh">
+        <option value="cong">Cộng</option>
+        <option value="tru">Trừ</option>
+        <option value="nhan">Nhân</option>
+        <option value="chia">Chia</option>
+    </select>
+    <button type="submit">Tính toán</button>
+</form>
