@@ -1,0 +1,26 @@
+﻿<div class ="container">
+    <table class="table">
+		<thead>
+			<tr>
+				<th> tên thể loại</th>
+				<th>Ngày Tạo</th>
+				<th>Chức Năng</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in ViewBag.TheLoai)
+			{
+				<tr>
+					<td width="30%"> @item.Name</td>
+					<td width="30%"> @string.Format("{0:dd/MM/yyyy}", item.Description)</td>
+					<td width="40%"> <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>|
+						<a asp-action="Delete"asp-route-id="@item.Id">Delete</a></td>
+				</tr>
+			}
+		</tbody>
+    </table>
+	<a asp-controller="TheLoai" asp-action="Create" class=" btn  btn-primary">thêm mới</a>
+</div>
+    
+
+
