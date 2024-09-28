@@ -1,0 +1,26 @@
+﻿@model LopHoc
+<div class=" container">
+	<h3> Thêm Lớp Học</h3>
+	<form method="post" asp-action="Edit">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<div class="form-group">
+			<label asp-for=" TenLopHoc"> Tên Lớp Học</label>
+			<input asp-for="TenLopHoc" type="text" class="form-control " />
+			<span asp-validation-for="TenLopHoc" class="text-danger "></span>
+		</div>
+
+		<div class="form-group">
+			<label asp-for=" NamNhapHoc"> Năm Nhập Học</label>
+			<input asp-for="NamNhapHoc" type="text" class="form-control " />
+			<span asp-validation-for="NamNhapHoc" class="text-danger "></span>
+		</div>
+		<button type="submit" class="btn btn-primary">Lưu </button>
+		<a asp-action="Index" class="btn btn-secondary">Hủy</a> 
+	</form>
+
+</div>
+@section Scripts {
+	@{
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

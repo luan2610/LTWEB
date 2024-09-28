@@ -1,0 +1,351 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\lophoc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\lophoc\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\lophoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\lophoc\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\models\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\models\\lophoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\lophoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\lophoc\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\controllers\\lophoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\controllers\\lophoccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240928074515_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaiKiemTra02\\Migrations\\20240928074515_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|c:\\users\\pc msi\\onedrive\\desktop\\baikiemtra02\\baikiemtra02\\baikiemtra02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E4AE1264-7A20-4E10-9156-031E5F464E7A}|BaiKiemTra02\\BaiKiemTra02.csproj|solutionrelative:baikiemtra02\\baikiemtra02.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240924160324_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml*",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-28T08:16:39.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240928074515_init.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240928074515_init.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Migrations\\20240928074515_init.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240928074515_init.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Migrations\\20240928074515_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T07:45:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\LopHoc\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Index.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\LopHoc\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:26:30.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LopHocController.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Controllers\\LopHocController.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Controllers\\LopHocController.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Controllers\\LopHocController.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Controllers\\LopHocController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:51:50.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\LopHoc\\Create.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Create.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\LopHoc\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:07:07.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:06:10.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Details.cshtml",
+              "ToolTip": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Details.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:25:17.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:58:34.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LopHoc.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Models\\LopHoc.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Models\\LopHoc.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Models\\LopHoc.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Models\\LopHoc.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:36:12.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:50:56.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Delete.cshtml",
+              "ToolTip": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Delete.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:19:40.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml",
+              "ToolTip": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Views\\LopHoc\\Edit.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T16:21:18.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240924160324_init.cs",
+              "DocumentMoniker": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240924160324_init.cs",
+              "ToolTip": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\Migrations\\20240924160324_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T16:03:24.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:51:15.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:51:15.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\.gitignore",
+              "ToolTip": "D:\\Web Programming\\Mrquangpig\\BaiKiemTra02\\BaiKiemTra02\\.gitignore",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-09-24T14:34:25.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BaiKiemTra02\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T15:50:58.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\appsettings.json",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\appsettings.json",
+              "RelativeToolTip": "BaiKiemTra02\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T14:39:39.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Program.cs",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\Program.cs",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\Program.cs",
+              "RelativeToolTip": "BaiKiemTra02\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T14:34:33.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaiKiemTra02.csproj",
+              "DocumentMoniker": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\BaiKiemTra02.csproj",
+              "RelativeDocumentMoniker": "BaiKiemTra02\\BaiKiemTra02.csproj",
+              "ToolTip": "C:\\Users\\PC MSI\\OneDrive\\Desktop\\BaiKiemTra02\\BaiKiemTra02\\BaiKiemTra02.csproj",
+              "RelativeToolTip": "BaiKiemTra02\\BaiKiemTra02.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-24T14:32:18.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
