@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Contract>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Mã Hợp Đồng</th>
+                <th>Tên Hợp Đồng</th>
+                <th>Ngày Ký Kết</th>
+                <th>Khách hàng</th>
+                <th>giá trị hợp đồng</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in @Model)
+            {
+                <tr>
+                    <td>@item.Contract_Id</td>
+                    <td>@item.Contract_Name</td>
+                    <td>@item.signing_date</td>
+                    <td>@item.customer</td>
+                    <td>@item.contract_value</td>
+
+                    <td>
+                        <a asp-action="Upsert" asp-route-id="@item.Contract_Id">Edit</a> |
+                        <a href="#">Details</a>  |
+                        <a href="#" onclick="confirmDelete(@item.Contract_Id, $(this))">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+   
+</div>
+<script>
+    function confirmDelete(id, row) {
+        if (confirm("Bạn có chắc chắn muốn xóa sản phẩm có id là" + id + "?")) {
+            xoa(id, $(row))
+        }
+    }
+    function xoa(idx, row) {
+        $.ajax({
+            url: `SanPham / Delete`,
+            data: { id: idx },
+            type: "POST",
+            success: function (data) {
+                row.closest("tr").remove();
+            }
+        })
+    }
+</script>
