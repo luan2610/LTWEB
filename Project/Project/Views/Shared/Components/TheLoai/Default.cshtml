@@ -1,0 +1,14 @@
+﻿@model IEnumerable<TheLoai>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="theLoaiDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thể loại</a>
+    <div class="dropdown-menu" aria-labelledby="theLoaiDropdown">
+        @foreach (var item in Model)
+        {
+            <a asp-controller="Home"
+            asp-action="FilterByTheLoai"
+            asp-route-id="@item.Id"
+            class="dropdown-item">@item.Name</a>
+        }
+    </div>
+</li>
+

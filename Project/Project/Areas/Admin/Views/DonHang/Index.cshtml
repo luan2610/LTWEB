@@ -1,0 +1,125 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@model IEnumerable<HoaDon>
+<div class="container">
+    <table class="table">
+        <div class="row">
+            <!-- Giỏ hàng -->
+            <div class="col-md-8">
+                <h2 class="mb-4">Đơn Hàng Đang Đợi Duyệt</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center">
+                        <thead class="table-light">
+                            <tr>
+                                <th>STT</th>
+                                <th>Tên khách hàng</th>
+                                <th>Số điện thoại</th>
+                                <th>Địa chỉ</th>
+                                <th>Trạng thái đơn hàng</th>
+                                <th>Ngày đặt hàng</th>
+                                <th>Tổng cộng</th>
+                                <th>Chi tiết</th>
+                                <th>Xác nhận</th>
+                                <th>Hủy đơn hàng</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in @Model)
+                            {
+                                <tr>
+                                    <td>@item.Id</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.PhoneNumber</td>
+                                    <td>@item.Address</td>
+                                    <td>
+                                        @if (item.IsConfirmed)
+                                        {
+                                            <span class="badge bg-success">Đã xác nhận</span>
+                                        }
+                                        else
+                                        {
+                                            <span>@item.OrderStatus</span>
+                                        }
+                                    </td>
+                                    <td>@item.OrderDate</td>
+                                    <td class="text-danger">@item.Total.ToString("N0")đ</td>
+                                    <td>
+                                        <a asp-action="ChiTiet" asp-route-id="@item.Id">Xem chi tiết</a>
+                                    </td>
+                                    <td>
+                                        <form asp-action="XacNhanDonHang" method="post">
+                                            <input type="hidden" name="id" value="@item.Id" />
+                                            <button type="submit" class="btn btn-success">Xác nhận</button>
+                                        </form>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger btn-huy-don-hang" data-id="@item.Id" data-toggle="modal" data-target="#huyDonHangModal">
+                                            Hủy đơn
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal fade" id="huyDonHangModal" tabindex="-1" role="dialog" aria-labelledby="huyDonHangModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="huyDonHangModalLabel">Chọn lý do hủy</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="huyDonHangForm" method="post" asp-action="HuyDonHang">
+                                    <input type="hidden" name="id" id="orderId" />
+
+                                    <div class="form-group">
+                                        <label for="cancellationReason">Lý do hủy:</label>
+                                        <select class="form-control" id="cancellationReason" name="cancellationReason" required>
+                                            <option value="">Chọn lý do</option>
+                                            <option value="Khách hủy">Khách hủy</option>
+                                            <option value="Hết hàng">Hết hàng</option>
+                                            <option value="Lý do khác">Lý do khác</option>
+                                        </select>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                                <button type="button" class="btn btn-danger" id="confirmCancel">Xác nhận hủy</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </table>
+</div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var orderId;
+
+            // Mở modal và lấy Id đơn hàng
+            $(".btn-huy-don-hang").click(function () {
+                orderId = $(this).data("id");
+                $("#orderId").val(orderId);
+            });
+
+            // Xác nhận hủy
+            $("#confirmCancel").click(function () {
+                // Kiểm tra nếu đã chọn lý do
+                if ($("#cancellationReason").val() === "") {
+                    alert("Vui lòng chọn lý do hủy.");
+                    return;
+                }
+
+                // Gửi form
+                $("#huyDonHangForm").submit();
+            });
+        });
+    </script>
+}

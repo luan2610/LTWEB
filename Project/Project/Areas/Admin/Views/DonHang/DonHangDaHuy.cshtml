@@ -1,0 +1,48 @@
+﻿@model IEnumerable<HoaDon>
+
+<h2>Danh Sách Đơn Hàng Đã Hủy</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID đơn hàng</th>
+            <th>Tên khách hàng</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ</th>
+            <th>Trạng thái đơn hàng</th>
+            <th>Lý do hủy</th>
+            <th>Ngày hủy</th>
+            <th>Tổng cộng</th>
+            <th>Chi tiết</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.PhoneNumber</td>
+                <td>@item.Address</td>
+                <td>
+                    @if (item.IsCancelled)
+                    {
+                        <span class="badge bg-danger">Đã bị hủy</span>
+                    }
+                    else
+                    {
+                        @item.OrderStatus
+                    }
+                </td>
+                <td>@item.CancellationReason</td>
+                <td>@item.CancelledDate</td>
+                <td class="text-danger">@item.Total.ToString("N0")đ</td>
+                <td>
+                    <a asp-action="ChiTiet" asp-route-id="@item.Id">Xem chi tiết</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Index" class="btn btn-primary">Quay Lại</a>

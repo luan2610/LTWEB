@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+@model IEnumerable<SanPham>
+<style>
+    .card {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .card-body {
+        flex-grow: 1;
+    }
+
+    .card-img-top {
+        object-fit: contain;
+        width: 100%;
+        height: 200px;
+    }
+</style>
+<div class="container">
+    <h1 class="text-center">SẢN PHẨM NỔI BẬT</h1>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-3">
+                <div class="card h-100">
+                    <a asp-action="Details" asp-route-sanphamid="@item.Id">
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name" />
+                    </a>
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Name</h5>
+                        <h4 class="card-title text-danger">@item.price.ToString("N0") VND</h4>
+                        <p class="card-text">@item.Description</p>
+                        <div class="mt-auto">
+                            <div class="row d-flex flex-row">
+                                <div class="col-6">
+                                    <a asp-action="Details" asp-route-sanphamId="@item.Id" class="btn btn-primary btn-block">Thêm vào &#10084</a>
+                                </div>
+                                <div class="col-6">
+                                    <a asp-action="Details" asp-route-sanphamId="@item.Id" class="btn btn-danger btn-block">Mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
